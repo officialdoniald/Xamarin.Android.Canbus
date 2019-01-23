@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Android.Canbus", "Xamarin.Android.Canbus\Xamarin.Android.Canbus.csproj", "{FB2491B5-62F1-40EA-8270-B0CB1EB49CD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Android.Canbus.Wrapper", "Xamarin.Android.Canbus.Wrapper\Xamarin.Android.Canbus.Wrapper.csproj", "{B9396F07-181D-482B-B27A-0963DFDBE961}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{06992F33-91E9-4BD6-817B-8834782145C3}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.exe = nuget.exe
+		package.nuspec = package.nuspec
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Android.Canbus.PoC", "Xamarin.Android.Canbus.PoC\Xamarin.Android.Canbus.PoC.csproj", "{F3885F09-08ED-4192-B1CA-476282A2B4A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB2491B5-62F1-40EA-8270-B0CB1EB49CD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB2491B5-62F1-40EA-8270-B0CB1EB49CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB2491B5-62F1-40EA-8270-B0CB1EB49CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB2491B5-62F1-40EA-8270-B0CB1EB49CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9396F07-181D-482B-B27A-0963DFDBE961}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9396F07-181D-482B-B27A-0963DFDBE961}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9396F07-181D-482B-B27A-0963DFDBE961}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9396F07-181D-482B-B27A-0963DFDBE961}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3885F09-08ED-4192-B1CA-476282A2B4A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3885F09-08ED-4192-B1CA-476282A2B4A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3885F09-08ED-4192-B1CA-476282A2B4A8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{F3885F09-08ED-4192-B1CA-476282A2B4A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3885F09-08ED-4192-B1CA-476282A2B4A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3885F09-08ED-4192-B1CA-476282A2B4A8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB853C25-8B0D-4A74-92F4-E9D565B72AA4}
+	EndGlobalSection
+EndGlobal
