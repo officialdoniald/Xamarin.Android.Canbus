@@ -45,7 +45,7 @@ namespace AOBUCan
             _canbus = new Canbus(250000);
             _canbus.PackageReceive += Canbus_PackageReceive;
             _canbus.CanbusStatusChanged += Canbus_CanbusStatusChanged;
-            _canbus.CanbusExceptionOccour += Canbus_CanbusExceptionOccour; ;
+            _canbus.CanbusExceptionOccour += Canbus_CanbusExceptionOccour;
 
             _logger.Info("Canbus created.");
             _logger.Info("Canbus Canbus_PackageReceive started.");
