@@ -2,6 +2,14 @@
 
 Usage:
 
+<p>Don't forget to copy the lib folder to your project! First step: copy the lib folder to you project. You have to change the Properties of theese files:</p>
+
+<p>libcanbus.so: AndroidNativeLibrary</p>
+
+<p>canbus_helper.jar: AndroidJavaLibrary</p>
+
+<p>canbus_micro_fixed.jar: AndroidJavaLibrary</p>
+
 Create Canbus:
 
 Canbus _canbus = _canbus = new Canbus(250000);
